@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<RobotWarsApp>
+    <!-- Settings for RobotWarsApp -->
+    <TIME_TO_BREED_PREDATOR value="6"/>
+    <TIME_TO_BREED_PREY value="12"/>
+    <TIME_TO_EAT value="12"/>
+    <PREDATOR_AGGRESSIVENESS value="4"/>
+    <PERCENT_PREDATOR value="20"/>
+    <PERCENT_PREY value="40"/>
+    <PERCENT_OBSTACLES value="5"/>
+    <PERCENT_BLACKHOLES value="1"/>
+    <PERCENT_TRANSPORTHOLES value="5"/>
+    <PERCENT_EMPTYCELLS value="40"/>
+    <NUMBER_OF_ROWS value="20"/>
+    <NUMBER_OF_COLS value="20"/>
+</RobotWarsApp>

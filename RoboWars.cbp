@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RoboWars" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RoboWars" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RoboWars" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`wx-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+		</Linker>
+		<Unit filename="Arena.cpp" />
+		<Unit filename="Arena.h" />
+		<Unit filename="BlackHole.cpp" />
+		<Unit filename="BlackHole.h" />
+		<Unit filename="Cell.cpp" />
+		<Unit filename="Cell.h" />
+		<Unit filename="Obstacle.cpp" />
+		<Unit filename="Obstacle.h" />
+		<Unit filename="Parameters.cpp" />
+		<Unit filename="Parameters.h" />
+		<Unit filename="Predator.cpp" />
+		<Unit filename="Predator.h" />
+		<Unit filename="PreyRobot.cpp" />
+		<Unit filename="PreyRobot.h" />
+		<Unit filename="RoboWarsApp.cpp" />
+		<Unit filename="RoboWarsApp.h" />
+		<Unit filename="RoboWarsMain.cpp" />
+		<Unit filename="RoboWarsMain.h" />
+		<Unit filename="RobotSettings.xml" />
+		<Unit filename="TransportHole.cpp" />
+		<Unit filename="TransportHole.h" />
+		<Unit filename="tinystr.cpp" />
+		<Unit filename="tinystr.h" />
+		<Unit filename="tinyxml.cpp" />
+		<Unit filename="tinyxml.h" />
+		<Unit filename="tinyxmlerror.cpp" />
+		<Unit filename="tinyxmlparser.cpp" />
+		<Unit filename="wxsmith/RoboWarsframe.wxs" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="RoboWarsApp.cpp" main="RoboWarsFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/RoboWarsframe.wxs" src="RoboWarsMain.cpp" hdr="RoboWarsMain.h" name="RoboWarsFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
